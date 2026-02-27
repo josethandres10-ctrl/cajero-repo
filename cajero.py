@@ -8,3 +8,5 @@ print("1. Consultar saldo")
 print("2. Retirar efectivo")
 print("3. Depositar efectivo")
 opcion = input()
+if opcion == "1":
+    print("Su saldo es: $1000")
