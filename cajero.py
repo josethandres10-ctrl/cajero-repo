@@ -10,11 +10,14 @@ print("3. Depositar efectivo")
 opcion = input()
 if opcion == "1":
     print("Su saldo es: $1000")
-elif opcion == "2":    print("Ingrese la cantidad a retirar:")
+elif opcion == "2":    
+    print("Ingrese la cantidad a retirar:")
     cantidad = input()
     print(f"Ha retirado ${cantidad}")
-elif opcion == "3":    print("Ingrese la cantidad a depositar:")
+elif opcion == "3":   
+    print("Ingrese la cantidad a depositar:")
     cantidad = input()
     print(f"Ha depositado ${cantidad}")
-else:    print("Opción no válida")
-print("Gracias por usar el cajero automático")
+else:  
+    print("Opción no válida")
+    print("Gracias por usar el cajero automático")
